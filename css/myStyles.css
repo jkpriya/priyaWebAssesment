@@ -89,3 +89,7 @@ h1{
 #back{
     justify-content: right;
 }
+#vgimg{
+    height:100px;
+    width:100px;
+}
