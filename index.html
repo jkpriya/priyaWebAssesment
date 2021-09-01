@@ -17,7 +17,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">VG</a>
+          <a id="vg" class="navbar-brand" href="#top"><div id="vg">VG</div></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#enquires">Enquires</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
           </div>
@@ -116,47 +116,52 @@
         <!-- Section Cars Ends Here -->
 
         <!-- Section Enquires Starts Here -->
-        <section class="enquires" id="enquires">
+        <section class="enquires" >
             <!-- BootStrap Enqiry Form Starts Here -->
-            <form>
-                <h4>Vintage car enquire here!!!!</h4>
-                <div class="mb-3">
-                    <label for="enquiryFullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="enquiryFullName">
-                </div>
-
-                <div class="mb-3">
-                    <label for="enquiryEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="enquiryEmail" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
+            <br>
+            <h4 id="enquires">Vintage car enquire here!!!!</h4>
+            
+            <div class="form">
+                <form>
+                    <div class="mb-3">
+                        <label for="enquiryFullName" class="form-label" >Full Name</label>
+                        <input type="text" class="form-control" id="enquiryFullName"placeholder="Enter your Full Name">
                     </div>
-                </div>
-                
-                <div class="mb-3">
-                    <label for="chooseCar">Choose a Car</label>
-                    <select id="chooseCar" class="form-select" aria-label="Default select example">
-                        <option value="1">Vintage Teal Sedan</option>
-                        <option value="2">vintage grey car</option>
-                        <option value="3">vintage green car</option>
-                        <option value="4">Vintage Orange Beetel</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="enquiryComment" class="form-label">Comments</label>
-                    <textarea class="form-control" id="enquiryComment" rows="4" aria-describedby="emailHelp" >
+
+                    <div class="mb-3">
+                        <label for="enquiryEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="enquiryEmail" aria-describedby="emailHelp" placeholder="Enter your Email Address">
+                        <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="chooseCar">Choose a Car</label>
+                        <select id="chooseCar" class="form-select" aria-label="Default select example" >
+                            <option value="choose">Choose a car you like to enquire</option>
+                            <option value="tealSedan">Vintage Teal Sedan</option>
+                            <option value="greyCar">vintage grey car</option>
+                            <option value="greenCar">vintage green car</option>
+                            <option value="orangeBeetel">Vintage Orange Beetel</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="enquiryComment" class="form-label">Comments</label>
+                        <textarea class="form-control" id="enquiryComment" rows="4" aria-describedby="emailHelp"  >
 
 
-                    </textarea> 
+                        </textarea> 
 
-    
-                </div>
+        
+                    </div>
 
-                <div>
-                    <button id="submitButton" type="submit" value="submit" class="btn btn-primary  m-3">Submit</button>
-                </div>
-                
-            </form>
+                    <div>
+                        <button id="submitButton" type="submit" value="submit" class="btn btn-primary  m-3">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
             <!-- BootStrap Enqiry Form Ends Here -->
 
         </section>
