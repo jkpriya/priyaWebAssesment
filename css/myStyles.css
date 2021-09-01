@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin:3%;
+}
+.card img{
+    height: 200px;
+}
+section{
+     margin-top: 5px;  /*All sections should have a top margin of 5 px */
+
+}
+/* NavItems */
+#navbarNav
+{
+    justify-content: flex-end;/* Moving NAV items to right */
+}
+
+h1{
+    text-align: center;
+    margin-top:
+}
+
+#map{
+    border:3px solid black;
+    height:400px;
+    width:400px;
+}
